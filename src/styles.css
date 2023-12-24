@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  font-size: 16px;
+  font-family: 'Open sans', sans-serif;
+  --text-primary: rgb(148, 163, 184);
+  --title-primary: rgb(241, 245, 249);
+  --text-hover-secondary: rgb(56, 189, 248);
+  --text-hover-primary: rgb(38, 159, 211);
+  --bg-primary: rgb(15, 23, 42);
+  --bg-active: rgb(22,30,50);
+  --bg-secondary: rgb(30, 41, 59);
+  --navbar-transition-speed: 600ms;
+  --border: 1px solid rgba(248, 250, 252, 0.10);
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  scrollbar-width: 0.3rem;
+  scrollbar-color: rgb(104, 4, 104);
+}
+
+*, body {
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(104, 4, 104);
+}
+
+button {
+  background-color: var(--text-hover-primary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: var(--text-hover-secondary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--title-primary)
+}
+
+a:hover {
+  color: var(--text-hover-secondary);
+}
+

@@ -1,0 +1,14 @@
+.sign-up {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.sign-up__link {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.sign-up__link:hover {
+  text-decoration: underline;
+}
